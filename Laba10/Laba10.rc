@@ -30,55 +30,52 @@ BEGIN
     BEGIN
         POPUP "Лабораторна робота 1 "
         BEGIN
-            MENUITEM "Запуск",                      ID_40012
+            MENUITEM "Запуск",                      ID_Lb_1
             MENUITEM "Інформація",                  ID_40013
         END
         POPUP "Лабораторна робота 2"
         BEGIN
-            MENUITEM "Запуск",                      ID_40014
+            MENUITEM "Запуск",                      ID_Lb_2
             MENUITEM "Інформація",                  ID_40015
         END
         POPUP "Лабораторна робота 3"
         BEGIN
-            MENUITEM "Запуск",                      ID_40016
+            MENUITEM "Запуск",                      ID_Lb_3
             MENUITEM "Інформація",                  ID_40017
         END
         POPUP "Лабораторна робота 4"
         BEGIN
-            MENUITEM "Запуск",                      ID_40018
+            MENUITEM "Запуск",                      ID_Lb_4
             MENUITEM "Інформація",                  ID_40019
         END
         POPUP "Лабораторна робота 5"
         BEGIN
-            MENUITEM "Запуск ",                     ID_40020
+            MENUITEM "Запуск ",                     ID_Lb_5
             MENUITEM "Інформація",                  ID_40021
         END
         POPUP "Лабораторна робота 6"
         BEGIN
-            MENUITEM "Запуск ",                     ID_40022
+            MENUITEM "Запуск ",                     ID_Lb_6
             MENUITEM "Інформація",                  ID_40023
         END
         POPUP "Лабораторна робота 7"
         BEGIN
-            MENUITEM "Запуск",                      ID_40024
+            MENUITEM "Запуск",                      ID_Lb_7
             MENUITEM "Інформація",                  ID_40025
         END
         POPUP "Лабораторна робота 8"
         BEGIN
-            MENUITEM "Запуск",                      ID_40026
+            MENUITEM "Запуск",                      ID_Lb_8
             MENUITEM "Інформація",                  ID_40027
         END
         POPUP "Лабораторна робота 9"
         BEGIN
-            MENUITEM "Запуск",                      ID_40028
+            MENUITEM "Запуск",                      ID_Lb_9
             MENUITEM "Інформація",                  ID_40029
         END
     END
-    POPUP "Режим роботи"
-    BEGIN
-        MENUITEM "1 режим",                     ID_40010
-        MENUITEM "2 режим",                     ID_40011
-    END
+    MENUITEM "Годинник",                    ID_Clock
+    MENUITEM "Автори",                      ID_Authors
 END
 
 #endif    // Русский (Россия) resources

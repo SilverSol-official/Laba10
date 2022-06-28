@@ -32,13 +32,27 @@
 #define ID_40027                        40027
 #define ID_40028                        40028
 #define ID_40029                        40029
+#define ID_Lb_1                         40030
+#define ID_Lb_2                         40031
+#define ID_Lb_3                         40032
+#define ID_Lb_4                         40033
+#define ID_Lb_5                         40034
+#define ID_Lb_6                         40035
+#define ID_Lb_7                         40036
+#define ID_Lb_8                         40037
+#define ID_Lb_9                         40038
+#define ID_40039                        40039
+#define ID_STOP                         40040
+#define ID_Clock                        40042
+#define ID_40043                        40043
+#define ID_Authors                      40044
 
 // Next default values for new objects
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_NEXT_RESOURCE_VALUE        102
-#define _APS_NEXT_COMMAND_VALUE         40030
+#define _APS_NEXT_COMMAND_VALUE         40045
 #define _APS_NEXT_CONTROL_VALUE         1001
 #define _APS_NEXT_SYMED_VALUE           101
 #endif
