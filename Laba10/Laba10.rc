@@ -1,0 +1,134 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Русский (Россия) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "Попередні лабораторні роботи"
+    BEGIN
+        POPUP "Лабораторна робота 1 "
+        BEGIN
+            MENUITEM "Запуск",                      ID_40012
+            MENUITEM "Інформація",                  ID_40013
+        END
+        POPUP "Лабораторна робота 2"
+        BEGIN
+            MENUITEM "Запуск",                      ID_40014
+            MENUITEM "Інформація",                  ID_40015
+        END
+        POPUP "Лабораторна робота 3"
+        BEGIN
+            MENUITEM "Запуск",                      ID_40016
+            MENUITEM "Інформація",                  ID_40017
+        END
+        POPUP "Лабораторна робота 4"
+        BEGIN
+            MENUITEM "Запуск",                      ID_40018
+            MENUITEM "Інформація",                  ID_40019
+        END
+        POPUP "Лабораторна робота 5"
+        BEGIN
+            MENUITEM "Запуск ",                     ID_40020
+            MENUITEM "Інформація",                  ID_40021
+        END
+        POPUP "Лабораторна робота 6"
+        BEGIN
+            MENUITEM "Запуск ",                     ID_40022
+            MENUITEM "Інформація",                  ID_40023
+        END
+        POPUP "Лабораторна робота 7"
+        BEGIN
+            MENUITEM "Запуск",                      ID_40024
+            MENUITEM "Інформація",                  ID_40025
+        END
+        POPUP "Лабораторна робота 8"
+        BEGIN
+            MENUITEM "Запуск",                      ID_40026
+            MENUITEM "Інформація",                  ID_40027
+        END
+        POPUP "Лабораторна робота 9"
+        BEGIN
+            MENUITEM "Запуск",                      ID_40028
+            MENUITEM "Інформація",                  ID_40029
+        END
+    END
+    POPUP "Режим роботи"
+    BEGIN
+        MENUITEM "1 режим",                     ID_40010
+        MENUITEM "2 режим",                     ID_40011
+    END
+END
+
+#endif    // Русский (Россия) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Украинский (Украина) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_UKR)
+LANGUAGE LANG_UKRAINIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Украинский (Украина) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

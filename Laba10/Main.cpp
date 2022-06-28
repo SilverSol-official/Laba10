@@ -6,7 +6,7 @@ processorArchitecture='*' publicKeyToken='6595b64144ccf1df' language='*'\"")
 #include <iostream>
 #include <string>
 #include <fstream>
-//#include "resource.h";
+#include "resource.h";
 
 HWND hWnd;
 HINSTANCE hInst;
@@ -32,7 +32,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	wc.hIcon = NULL;
 	wc.hCursor = LoadCursor(NULL, IDC_ARROW);
 	wc.hbrBackground = (HBRUSH)GetStockObject(WHITE_BRUSH);
-	wc.lpszMenuName = 0;
+	wc.lpszMenuName = MAKEINTRESOURCE(IDR_MENU1);
 	wc.lpszClassName = szClassName;
 
 	if (!RegisterClass(&wc))
@@ -44,7 +44,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
 	HWND hWnd = CreateWindowW(
 		szClassName,
-		L"Лаба 5",
+		L"Лабораторна робота 10",
 		WS_OVERLAPPEDWINDOW,
 		(GetSystemMetrics(SM_CXSCREEN) - width) / 2, (GetSystemMetrics(SM_CYSCREEN) - height) / 2,
 		width, height,
